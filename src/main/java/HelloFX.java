@@ -16,7 +16,7 @@ public class HelloFX extends Application {
         String version = System.getProperty("javafx.version");
         Label label = new Label("Hej fra JavaFX " + version);
         Label label2 = new Label("Mikkel er en kæmpe boomer");
-        Button button = new Button("Når du rør mig bliver jeg dobbelt så stor :^)");
+        Button button = new Button("Når du rør mig bliver jeg dobbelt så stor :^ hihihi)");
         Stage stage2 = new Stage();
         button.setOnAction(new EventHandler<ActionEvent>() {
             @Override

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+
+
+<TilePane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TitledPane animated="false" prefHeight="410.0" prefWidth="602.0" text="Valget er dit">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Button layoutX="190.0" layoutY="334.0" mnemonicParsing="false" text="Decline" />
+                        <Button layoutX="14.0" layoutY="334.0" mnemonicParsing="false" text="Accept" textFill="#843030" />
+                        <TextArea layoutX="-1.0" prefHeight="136.0" prefWidth="600.0" text="Du har valget mellem at acceptere eller afslå at få dine cheeks clapped" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </TitledPane>
+    </children>
+</TilePane>
